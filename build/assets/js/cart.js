@@ -74,6 +74,7 @@
             this._delivery = 5;
           } else {
             this._delivery = 0;
+			
           }
 
           this._tax = parseFloat(
@@ -84,13 +85,20 @@
           document.getElementById(
             "subtotal"
           ).innerText = `$${this._subtotal.toFixed(2)}`;
-          document.getElementById(
+         
+		 document.getElementById(
             "delivery"
           ).innerText = `$${this._delivery.toFixed(2)}`;
+
           document.getElementById("tax").innerText = `$${this._tax.toFixed(2)}`;
           document.getElementById("total").innerText = `$${this._total.toFixed(
             2
           )}`;
+		  
+		  	if (this._subtotal > 12) {
+				var getDelivery = document.getElementById("delivery");
+				getDelivery.innerHTML  = "FREE";
+			}
         }
 
         processPayment() {
@@ -103,7 +111,7 @@
 		  
           let confirmation = ``;
           alert(
-            `We have charged $${this._total} to your credit card (${maskedCreditCardNumber}). Your food is on its way.`
+            `We have charged $${this._total.toFixed(2)} to your credit card (${maskedCreditCardNumber}). Your food is on its way.`
           );
 		  
 		  
