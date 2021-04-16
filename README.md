@@ -12,6 +12,7 @@ erichello@hotmail.com
 -HTML
 -Javascript
 -Boostrap 4
+-Material Icons
 
 ## Quick start
 There are three ways to run this app. 
