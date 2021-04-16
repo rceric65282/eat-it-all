@@ -112,12 +112,13 @@
           let confirmation = ``;
 		 
 
-		   document.getElementById('playmentBlock').innerHTML = "<p>We have charged "+this._total.toFixed(2)+" to your credit card "+ maskedCreditCardNumber +". Your food is on its way.</p>";
+		   document.getElementById('playmentBlock').innerHTML = "<h4>We have charged $"+this._total.toFixed(2)+" to your credit card ("+ maskedCreditCardNumber +").<br> Your food is on its way to 275 Allard Blvd SW, Edmonton, AB.<br>Estimated Time of Arrival is 20 minutes<br>Have a nice day!</h4>";
           /*alert(
 				`We have charged $${this._total.toFixed(2)} to your credit card (${maskedCreditCardNumber}). Your food is on its way.`
           );
 		  */
-		  
+		  var feedMeButton = document.getElementById("feedMe");
+		  feedMeButton.disabled = true;
         }
       }
 

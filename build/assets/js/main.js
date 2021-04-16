@@ -33,6 +33,54 @@
             null
           )
         );
+		menu.add(
+          new MenuItem(
+            "Chicken Wrap",
+            "Single patty, with Ranch",
+            2.49,
+            null
+          )
+        );
+		menu.add(
+          new MenuItem(
+            "Fish and Chip",
+            "Single patty, with tartar sauce",
+            6.99,
+            null
+          )
+        );
+		menu.add(
+          new MenuItem(
+            "Fish Burrito",
+            "Single patty, with tartar sauce",
+            4.49,
+            null
+          )
+        );
+		menu.add(
+          new MenuItem(
+            "Hot Dog",
+            "Single patty, with ketchup and mustard",
+            1.49,
+            null
+          )
+        );
+		menu.add(
+          new MenuItem(
+            "Coca Cola",
+            "Soft Drink",
+            0.99,
+            null
+          )
+        );
+		menu.add(
+          new MenuItem(
+            "Pepsi",
+            "Soft Drink",
+            0.99,
+            null
+          )
+        );
 
         const menuTable = document
           .getElementById("menu")
