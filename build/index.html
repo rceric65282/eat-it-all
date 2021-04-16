@@ -50,7 +50,7 @@ The above copyright notice and this permission notice shall be included in all c
       <div class="sidebar-wrapper">
         <ul class="nav">
           <li class="nav-item active  ">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="#top">
               <i class="material-icons">dashboard</i>
               <p>Menu</p>
             </a>
@@ -322,7 +322,7 @@ The above copyright notice and this permission notice shall be included in all c
                   <h4 class="card-title">Your Order</h4>
                   <p class="card-category">Free Delivery when you spend $12 or more.</p>
                 </div>
-                <div class="card-body table-responsive">
+                <div class="card-body table-responsive" id="orderBlock" >
                   <table id="cart" class="table table-hover">
                     <thead class="text-warning">
                         <tr>
@@ -340,6 +340,32 @@ The above copyright notice and this permission notice shall be included in all c
                     </tbody>
                   </table>
 					<hr>
+						<table class="table table-hover">
+                        <tbody>
+                          <tr>
+                            <td>
+                              <div class="form-check">
+                                <label class="form-check-label">
+                                  <input class="form-check-input" type="checkbox" value="" checked>
+                                  <span class="form-check-sign">
+                                    <span class="check"></span>
+                                  </span>
+                                </label>
+                              </div>
+                            </td>
+                            <td>Default Shipping Address - 275 Allard Blvd SW, Edmonton AB </td>
+                            <td class="td-actions text-right">
+                              <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+                                <i class="material-icons">edit</i>
+                              </button>
+                              <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                                <i class="material-icons">close</i>
+                              </button>
+                            </td>
+                          </tr>                     
+                        </tbody>
+                      </table>
+					<div >
 					  <table class="table table-hover">
 						 <thead class="text-warning">
                         <tr>
@@ -365,9 +391,9 @@ The above copyright notice and this permission notice shall be included in all c
 						</tr>
 					  </table>
 					  <hr>
-					<div>
+					<div id = "playmentBlock">
 
-						<table class="table">
+						<table class="table table-hover">
                         <tbody>
                           <tr>
                             <td>
@@ -405,11 +431,13 @@ The above copyright notice and this permission notice shall be included in all c
 						  </tr>
 						  <tr>
 							<td><label for="expirydate">Expiry Date</label></td>
-							<td><input class="inputCard" name="expiry" id="expirydate" type="month" value="2023-06" required/></td>
+							<td><input class="inputCard" name="expiry" id="expirydate" type="month" value="2023-06" REQUIRED></td>
 						  </tr>
+						 
 						  </table>
-						  <button id = "feedMe" class="btn btn-warning btn-block" disabled onclick="cart.processPayment()">Feed me</button>
-						</div>						
+					</div >
+						<button id = "feedMe" class="btn btn-warning btn-block" disabled onclick="cart.processPayment()">Feed me</button>
+					</div>						
                 </div>			
               </div>
             </div>

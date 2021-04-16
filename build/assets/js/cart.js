@@ -107,13 +107,16 @@
 		  var creditCardNumberStart = creditCardNumber.substr(0, 4);
 		  var creditCardNumberEnd = creditCardNumber.substr(12, 15);
 		  var mask = "********";
-		  var maskedCreditCardNumber = creditCardNumberStart.concat(mask,creditCardNumberEnd);
+		  const maskedCreditCardNumber = creditCardNumberStart.concat(mask,creditCardNumberEnd);
 		  
           let confirmation = ``;
-          alert(
-            `We have charged $${this._total.toFixed(2)} to your credit card (${maskedCreditCardNumber}). Your food is on its way.`
+		 
+
+		   document.getElementById('playmentBlock').innerHTML = "<p>We have charged "+this._total.toFixed(2)+" to your credit card "+ maskedCreditCardNumber +". Your food is on its way.</p>";
+          /*alert(
+				`We have charged $${this._total.toFixed(2)} to your credit card (${maskedCreditCardNumber}). Your food is on its way.`
           );
-		  
+		  */
 		  
         }
       }
