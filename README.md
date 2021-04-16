@@ -39,23 +39,23 @@ eat-it-all-Eric-Ren/
 
 
 ├─build─── assets/
-			|  	├── css/
+		|  ├── css/
 	|   	|   ├── bootstrap.min.css
 	|   	|   ├── material-dashboard.css
-	|		|   ├── material-dashboard-rtl.css
-	|		|   └── demo.css
-	|  		 	├── js/
-	|		|   ├── bootstrap-notify.js
+	|	|   ├── material-dashboard-rtl.css
+	|	|   └── demo.css
+	|   	├── js/
+	|	|   ├── bootstrap-notify.js
 	|   	|   ├── bootstrap.min.js
 	|   	|   ├── chartist.min.js
 	|   	|   ├── demo.js
 	|   	|   ├── jquery-3.1.0.min.js
-	|  		|   ├── material-dashboard.js
-	|  		|   └── material.min.js
-	|			├── sass/
-	|		|   ├── md
-	|  		|   └── material-dashboard.scss
-	| 			└── img/
+	| 	|   ├── material-dashboard.js
+	|  	|   └── material.min.js
+	|	├── sass/
+	|	|   ├── md
+	|  	|   └── material-dashboard.scss
+	| 	└── img/
 	|
 	├── index.html
 	
