@@ -47,6 +47,8 @@
             var img = document.getElementById("img");
             var valid = document.getElementById("valid");
 			var feedMeButton = document.getElementById("feedMe");
+			var validTotal = document.getElementById("total");
+			
             if(validateCreditCardNumber(cardNumber)) {
                 valid.innerText = "Validated";
                 valid.style.color = "green";

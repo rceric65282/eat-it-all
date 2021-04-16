@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# CARNA  - Code Assignment  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Eric Ren
+https://resume.ezreal.ca
+https://carna.ezreal.ca/
+erichello@hotmail.com
+(825)440-6188
 
-## Available Scripts
 
-In the project directory, you can run:
+##technology & resource used 
+-Material-dashboard
+-HTML
+-Javascript
+-Boostrap 4
 
-### `npm start`
+## Quick start
+There are three ways to run this app. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. visit https://carna.ezreal.ca/ 
+ 
+2. 
+- Download and unzip EricRen.zip from onedrive
+- run build/index.html in Chrome, Brave, Firefox, Safari, IE (*Firefox, Safari, and IE  are not fully tested) 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+3.
+- Download and unzip EricRen.zip from [github]( https://github.com/rceric65282/eat-it-all )
+- run build/index.html in Chrome, Firefox, Brave, Safari, IE (*Firefox, Safari, and IE  are not fully tested) 
 
-### `npm test`
+## Documentation
+The documentation for the eat-it-all is hosted at [github]( https://github.com/rceric65282/eat-it-all ).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## File Structure
+Within the download you'll find the following directories and files:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+eat-it-all-Eric-Ren/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+├─build─── assets/
+			|  	├── css/
+	|   	|   ├── bootstrap.min.css
+	|   	|   ├── material-dashboard.css
+	|		|   ├── material-dashboard-rtl.css
+	|		|   └── demo.css
+	|  		 	├── js/
+	|		|   ├── bootstrap-notify.js
+	|   	|   ├── bootstrap.min.js
+	|   	|   ├── chartist.min.js
+	|   	|   ├── demo.js
+	|   	|   ├── jquery-3.1.0.min.js
+	|  		|   ├── material-dashboard.js
+	|  		|   └── material.min.js
+	|			├── sass/
+	|		|   ├── md
+	|  		|   └── material-dashboard.scss
+	| 			└── img/
+	|
+	├── index.html
+	
 
-### `npm run eject`
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Browser Support
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+At present, we officially aim to support the Chrome and Brave:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Resources
+- Demo: <https://demos.creative-tim.com/material-dashboard/examples/dashboard.html>
+- Download Page: <https://www.creative-tim.com/product/material-dashboard>
+- Documentation: <https://demos.creative-tim.com/material-dashboard/docs/2.1/getting-started/introduction.html>
+- License Agreement: <https://www.creative-tim.com/license>
+- PRO Version: <https://www.creative-tim.com/product/material-dashboard-pro>
+- Support: <https://www.creative-tim.com/contact-us>
+- Issues: [Github Issues Page](https://github.com/creativetimofficial/material-dashboard/issues)
+- [Material Kit](https://www.creative-tim.com/product/material-kit?ref=github-md-free) - For Front End Development
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Reporting Issues
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Upgrade to Premium version
 
-### Analyzing the Bundle Size
+Are you looking for more components? Please check our Premium Version of Material Dashboard [here](https://www.creative-tim.com/product/material-dashboard-pro/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Technical Support or Questions
 
-### Making a Progressive Web App
+If you have questions or need help integrating the product please me.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Eric Ren
+erichello@hotmail.com
+(825)440-6188

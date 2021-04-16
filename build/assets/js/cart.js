@@ -99,6 +99,7 @@
 				var getDelivery = document.getElementById("delivery");
 				getDelivery.innerHTML  = "FREE";
 			}
+			
         }
 
         processPayment() {
